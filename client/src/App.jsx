@@ -1,13 +1,16 @@
 
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
 
   return (
-    <>
-      <h1>Hello  world from local dev branch </h1>
-    </>
+
+    <div>
+      <Navbar />
+    </div>
+
   )
 }
 
